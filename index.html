@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="PUPLogo.png">
+    <title>PUP Hymn</title>
+    <style>
+		.school-header {
+			background: linear-gradient(to right, #ff0000, #ffff00);
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+
+		.school-logo {
+			height: 80px;
+			margin-right: 20px;
+			vertical-align: middle;
+		}
+
+		.school-name {
+			font-size: 36px;
+			font-weight: bold;
+			margin: 0;
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+        .school-info {
+			font-size: 18px;
+			margin: 0;
+			display: block;
+			line-height: 1;
+		}
+        body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #f7f7f7;
+		}
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 40px;
+			background-color: #fff;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			margin: 50px;
+			max-width: 1000px;
+			margin: 0 auto;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 0;
+		}
+		audio {
+			margin-bottom: 20px;
+		}
+        .marquee {
+            text-align: center;
+			margin-top: 0;
+        }
+        .pre{
+            text-align: center;
+            margin-top: 0;
+        }
+        
+	</style>
+</head>
+<body>
+    <header class="school-header">
+		<img src="PUPLogo.png" alt="School Logo" class="school-logo">
+		<h1 class="school-name">Polytechnic University of the Philippines</h1>
+        <p class="school-info">Anonas St., Sta. Mesa, Manila</p>
+	</header>
+    <div class="container">
+		<h1>PUP HYMN</h1>
+		<audio id="audio-player" src="PUP HYMN.mp3" controls autoplay></audio>
+          <marquee id="lyrics-marquee" behavior="scroll" direction="up" scrollamount="1" >
+          <h1 class="marquee">
+          <pre>PUP HYMN
+S. Calabig, S. Roldan, and R. Amaranto
+        
+Sintang Paaralan
+Tanglaw ka ng bayan
+Pandayan ng isip ng kabataan
+Kami ay dumating nang salat sa yaman
+Hanap na dunong ay iyong alay
+Ang layunin mong makatao
+Dinarangal ang Pilipino
+Ang iyong aral, diwa, adhikang taglay
+PUP, aming gabay
+Paaralang dakila
+PUP, pinagpala
+Gagamitin ang karunungan
+Mula sa iyo, para sa bayan
+Ang iyong aral, diwa, adhikang taglay
+PUP, aming gabay
+Paaralang dakila
+PUP, pinagpala
+        </pre>
+        </h1>
+        </marquee>
+	</div>
+</body>
+</html>
